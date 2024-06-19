@@ -67,7 +67,7 @@ This project demonstrated that pruning and clustering are effective techniques f
     ```
 
 ## Technical Report
-For more detailed information, please refer to the [technical report](./Examensarbete%20-%20Elias%20El%20Haddad%20-%20AI22%20(3).pdf).
+For more detailed information, please refer to the [Technical Report.pdf](https://github.com/user-attachments/files/15903103/Technical.Report.pdf).
 
 ## References
 - [TensorFlow Model Optimization](https://www.tensorflow.org/model_optimization)
