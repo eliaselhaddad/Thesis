@@ -1,5 +1,16 @@
 # Comparing Compression Techniques for Deep Learning Models
 
+## Table of Contents
+- [Introduction](#introduction)
+- [Summary of Results](#summary-of-results)
+- [Visualization](#visualization)
+- [Detailed Analysis](#detailed-analysis)
+- [Practical Applications](#practical-applications)
+- [Conclusion](#conclusion)
+- [How to Run the Project](#how-to-run-the-project)
+- [References](#references)
+- [Contributing](#contributing)
+
 ## Introduction
 This project compares various model optimization techniques, specifically pruning, clustering, and quantization, to evaluate their impact on model size and performance.
 
@@ -19,7 +30,6 @@ Here are some visual comparisons of the model sizes and accuracies:
 ### Individual Metrics
 ![Size, Training Accuracy, Validation Accuracy](https://github.com/eliaselhaddad/Thesis/assets/86868035/fd6034a1-cf85-48c8-9f0f-a1bda3e7b1e6)
 
-
 ## Detailed Analysis
 - **Model Size Reduction:** Both pruning and clustering reduced the model size by approximately 66%.
 - **Maintaining Accuracy:** Despite the reduction in size, the models retained high accuracy levels, with only a minor drop in validation accuracy.
@@ -32,10 +42,28 @@ Here are some visual comparisons of the model sizes and accuracies:
 This project demonstrated that pruning and clustering are effective techniques for model compression, achieving significant reductions in model size with minimal impact on accuracy.
 
 ## How to Run the Project
-1. Clone the repository.
-2. Install the required dependencies.
-3. Follow the provided Jupyter notebooks to reproduce the results.
+1. Clone the repository:
+    ```sh
+    git clone https://github.com/eliaselhaddad/Thesis.git
+    cd Thesis
+    ```
+2. Create and activate a virtual environment (optional but recommended):
+    ```sh
+    python -m venv env
+    source env/bin/activate  # On Windows use `env\Scripts\activate`
+    ```
+3. Install the required dependencies:
+    ```sh
+    pip install -r requirements.txt
+    ```
+4. Follow the provided Jupyter notebooks to reproduce the results:
+    ```sh
+    jupyter notebook
+    ```
 
 ## References
 - [TensorFlow Model Optimization](https://www.tensorflow.org/model_optimization)
 - [Kaggle: Pruning and Quantization in Keras](https://www.kaggle.com/code/sumn2u/pruning-and-quantization-in-keras)
+
+## Contributing
+Contributions are welcome! Please open an issue or submit a pull request if you have any suggestions or improvements.
