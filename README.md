@@ -14,10 +14,11 @@ This project compares various model optimization techniques, specifically prunin
 Here are some visual comparisons of the model sizes and accuracies:
 
 ### Model Sizes and Accuracies
-![Model Sizes and Accuracies](comparison.png)
+![Model Sizes and Accuracies](https://github.com/eliaselhaddad/Thesis/assets/86868035/c3d78cea-35db-45c8-b456-ec904c901229)
 
 ### Individual Metrics
-![Size, Training Accuracy, Validation Accuracy](size-training-validation.png)
+![Size, Training Accuracy, Validation Accuracy](https://github.com/eliaselhaddad/Thesis/assets/86868035/fd6034a1-cf85-48c8-9f0f-a1bda3e7b1e6)
+
 
 ## Detailed Analysis
 - **Model Size Reduction:** Both pruning and clustering reduced the model size by approximately 66%.
@@ -38,4 +39,3 @@ This project demonstrated that pruning and clustering are effective techniques f
 ## References
 - [TensorFlow Model Optimization](https://www.tensorflow.org/model_optimization)
 - [Kaggle: Pruning and Quantization in Keras](https://www.kaggle.com/code/sumn2u/pruning-and-quantization-in-keras)
-![comparison](https://github.com/eliaselhaddad/Thesis/assets/86868035/c3d78cea-35db-45c8-b456-ec904c901229)
