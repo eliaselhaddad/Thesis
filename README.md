@@ -1,15 +1,20 @@
 # Comparing Compression Techniques for Deep Learning Models
 
 ## Table of Contents
-- [Introduction](#introduction)
-- [Summary of Results](#summary-of-results)
-- [Visualization](#visualization)
-- [Detailed Analysis](#detailed-analysis)
-- [Practical Applications](#practical-applications)
-- [Conclusion](#conclusion)
-- [How to Run the Project](#how-to-run-the-project)
-- [References](#references)
-- [Contributing](#contributing)
+- [Comparing Compression Techniques for Deep Learning Models](#comparing-compression-techniques-for-deep-learning-models)
+  - [Table of Contents](#table-of-contents)
+  - [Introduction](#introduction)
+  - [Summary of Results](#summary-of-results)
+  - [Visualization](#visualization)
+    - [Model Sizes and Accuracies](#model-sizes-and-accuracies)
+    - [Individual Metrics](#individual-metrics)
+  - [Detailed Analysis](#detailed-analysis)
+  - [Practical Applications](#practical-applications)
+  - [Conclusion](#conclusion)
+  - [How to Run the Project](#how-to-run-the-project)
+  - [Technical Report](#technical-report)
+  - [References](#references)
+  - [Contributing](#contributing)
 
 ## Introduction
 This project compares various model optimization techniques, specifically pruning, clustering, and quantization, to evaluate their impact on model size and performance.
@@ -60,6 +65,9 @@ This project demonstrated that pruning and clustering are effective techniques f
     ```sh
     jupyter notebook
     ```
+
+## Technical Report
+For more detailed information, please refer to the [technical report](./Examensarbete%20-%20Elias%20El%20Haddad%20-%20AI22%20(3).pdf).
 
 ## References
 - [TensorFlow Model Optimization](https://www.tensorflow.org/model_optimization)
